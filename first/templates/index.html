@@ -1,0 +1,319 @@
+{% extends 'base.html' %} 
+{% block title %}Home{% endblock title %}
+ {% block body %}
+
+<!-- {% load static %} -->
+
+<div class="container-fluid my-4">
+  <!-- entire slider code  -->
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/img/slider/slider1.webp" class="d-block w-100" alt="photo" />
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/slider/slider2.webp" class="d-block w-100" alt="photo" />
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/slider/slide3.jpg" class="d-block w-100" alt="photo" />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<h1 class="my-2  text-center">All of Your Dream Stays, Just a Click Away!</h1>
+
+<!-- Gallary -->
+
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+    <h2 class="my-2  text-center"><i>Comfort & Style – Explore Our Gallery!</i></h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/gallery/1.webp"  alt="photo" style="border-top-left-radius:4px ; border-top-right-radius: 4px;" >
+          <div class="card-body">
+            <p class="card-text">
+           <strong><i>   Experience the luxury and beauty of our hotel through our gallery. 
+            Each image reflects the serene ambiance and exceptional amenities awaiting you.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+        <img src="/static/img/gallery/2.webp" alt="" style="border-top-left-radius:4px ; border-top-right-radius: 4px;">
+          <div class="card-body">
+            <p class="card-text">
+           <strong><i>   This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+        <img src="/static/img/gallery/3.webp" alt="" style="border-top-left-radius:4px ; border-top-right-radius: 4px;">
+          <div class="card-body">
+            <p class="card-text">
+             <strong><i> This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<!-- content rooms -->
+
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+    <h2 class="my-2  text-center"><i>Discover the Beauty of Our Rooms!</i></h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/room/room1.webp"  alt="photo">
+          <div class="card-body">
+            <p class="card-text">
+             <strong><i>Indulge in the comfort and elegance of our rooms, crafted for relaxation and style. 
+              Enjoy modern amenities and a warm, inviting atmosphere that feels like home.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+        <img src="/static/img/room/room2.webp" alt="">
+          <div class="card-body">
+            <p class="card-text">
+              <strong><i>Unwind in our spacious rooms, designed with comfort and convenience in mind.
+                 Each room is a blend of modern amenities and cozy ambiance for a perfect stay.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+        <img src="/static/img/room/room3.webp" alt="">
+          <div class="card-body">
+            <p class="card-text">
+              <strong><i>Experience the perfect blend of luxury and comfort in our rooms.
+                 With stylish decor and premium amenities, each room promises a restful and rejuvenating stay.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- services -->
+
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+    <h2 class="my-2  text-center"><i>World-Class Services, Just for You !</i></h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/services/food.jpg"  alt="photo">
+          <div class="card-body">
+            <p class="card-text">
+            <strong><i>Savor a delightful culinary journey with our exquisite dining options.
+               From local flavors to international cuisines, every meal is crafted to satisfy your taste buds.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+        <img src="/static/img/services/gym.jpg" alt="">
+          <div class="card-body">
+            <p class="card-text">
+              <strong><i>Elevate your fitness routine in our fully-equipped gym, designed to keep you active and energized. 
+                Enjoy modern equipment and a motivating environment for a productive workout.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+        <img src="/static/img/services/swimingPool.jpg" alt="">
+          <div class="card-body">
+            <p class="card-text">
+            <strong><i>Dive into relaxation at our pristine swimming pool, the perfect spot to unwind and refresh.
+               Enjoy a serene ambiance and stunning surroundings as you take a dip.</i></strong>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                </button>
+              
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Hotel Information -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase">About Us</h5>
+        <p>Welcome to <strong>HOTEL</strong>, your ultimate destination for comfort and luxury. Experience unforgettable stays with world-class services and amazing offers. Book now and create memories that last a lifetime!</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase">Quick Links</h5>
+        <ul class="list-unstyled">
+          
+          <li><a href="/gallary" class="text-white">Gallary</a></li>
+          <li><a href="/rooms" class="text-white">Rooms </a></li>
+          <li><a href="/services" class="text-white">Services</a></li>
+          <li><a href="/contact" class="text-white">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase">Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt"></i> Hotel Bistupur , Jamshedpur</p>
+        <p><i class="fas fa-phone"></i> +91 62028 72693</p>
+        <p><i class="fas fa-envelope"></i> shivam8404@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="row mt-4">
+      <div class="col text-center">
+        <h5 class="text-uppercase">Follow Us</h5>
+        <a href="#" class="text-white mx-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white mx-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white mx-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white mx-3"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="row mt-4">
+      <div class="col text-center">
+        <p>&copy; 2024 <strong>HOTEL</strong> . All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% endblock body %}

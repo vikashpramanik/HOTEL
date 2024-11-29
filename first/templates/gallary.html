@@ -1,0 +1,319 @@
+{% extends 'base.html' %}
+
+{% block title %}Gallary{% endblock title %}
+
+{% block body %}
+
+<!-- {% load static %} -->
+
+<div class="container-fluid my-4">
+    <!-- entire slider code  -->
+  
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/static/img/gallery/slider/gSlider1.jpg" class="d-block w-100" alt="photo" />
+        </div>
+        <div class="carousel-item">
+          <img src="/static/img/gallery/slider/gSlider2.jpg" class="d-block w-100" alt="photo" />
+        </div>
+        <div class="carousel-item">
+          <img src="/static/img/gallery/slider/gSlider3.jpg" class="d-block w-100" alt="photo" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <h1 class="my-2  text-center">Explore the Elegance – A Visual Journey Through Our Hotel</h1>
+  
+  <!-- Lobby -->
+  
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <h2 class="my-2  text-center"><i>Step into Elegance – A Grand Welcome Awaits You</i></h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/gallery/loby/loby1.jpg"  alt="photo" style="border-top-left-radius:4px ; border-top-right-radius: 4px;" >
+            <div class="card-body">
+              <p class="card-text">
+             <strong><i> Enter a world of elegance in our beautifully designed lobby, where style meets sophistication.
+                 A warm welcome awaits you in this inviting and luxurious space.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/gallery/loby/loby2.jpg" alt="" style="border-top-left-radius:4px ; border-top-right-radius: 4px;">
+            <div class="card-body">
+              <p class="card-text">
+             <strong><i>  Experience grandeur as you step into our stunning lobby, a blend of modern elegance and timeless charm.
+                 Relax and unwind in an atmosphere crafted to impress.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/gallery/loby/loby3.jpg" alt="" style="border-top-left-radius:4px ; border-top-right-radius: 4px;">
+            <div class="card-body">
+              <p class="card-text">
+               <strong><i> Our lobby is a masterpiece of elegance and warmth, offering a refined space to begin your journey.
+                 Let the ambiance set the tone for a memorable stay.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                  <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- bed rooms -->
+  
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <h2 class="my-2  text-center"><i>Your Sanctuary of Comfort – Unwind in Style</i></h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/gallery/bedrooms/bd1.jpg"  alt="photo">
+            <div class="card-body">
+              <p class="card-text">
+               <strong><i>Step into our attractive bedrooms, where elegance meets comfort for a truly luxurious experience.
+                 With stylish decor and cozy ambiance, each room promises an unforgettable stay.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/gallery/bedrooms/bd2.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">
+                <strong><i>Indulge in the charm of our attractive bedrooms, designed to offer both style and comfort. 
+                    Every room is a perfect blend of modern aesthetics and cozy warmth, ensuring a restful escape.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/gallery/bedrooms/bd3.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">
+                <strong><i>Unwind in our stunning bedrooms, where contemporary design and comfort come together.
+                     Each room is a perfect sanctuary, offering a peaceful retreat for ultimate relaxation.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- Balcony -->
+  
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <h2 class="my-2  text-center"><i>Breathtaking Views – Your Private Oasis Awaits</i></h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/gallery/balcony/bl2.jpg"  alt="photo">
+            <div class="card-body">
+              <p class="card-text">
+              <strong><i>Embrace the tranquility of our balconies, offering panoramic views and a serene space to relax.
+                 A perfect retreat to enjoy the fresh air and the beauty of your surroundings.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/gallery/balcony/bl1.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">
+                <strong><i>Relax and unwind on our spacious balconies, where you can enjoy stunning views and a peaceful atmosphere.
+                     It’s the perfect spot to sip a drink and take in the beauty around you.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/gallery/balcony/bl3.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">
+              <strong><i>Step out onto our beautiful balconies and enjoy breathtaking views that make every moment special. 
+                Perfectly designed for relaxation, each balcony offers a serene escape with a fresh breeze.</i></strong>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 10vh;">
+                    <b>  View</b>
+                  </button>
+                
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <!-- Hotel Information -->
+        <div class="col-md-4">
+          <h5 class="text-uppercase">About Us</h5>
+          <p>Welcome to <strong>HOTEL</strong>, your ultimate destination for comfort and luxury. Experience unforgettable stays with world-class services and amazing offers. Book now and create memories that last a lifetime!</p>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-4">
+          <h5 class="text-uppercase">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="{% url 'home' %}" class="text-white">Home</a></li>
+            <li><a href="/gallary" class="text-white">Gallary</a></li>
+            <li><a href="/rooms" class="text-white">Rooms </a></li>
+            <li><a href="/services" class="text-white">Services</a></li>
+            <li><a href="/contact" class="text-white">Contact Us</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Information -->
+        <div class="col-md-4">
+          <h5 class="text-uppercase">Contact Us</h5>
+          <p><i class="fas fa-map-marker-alt"></i> Hotel Bistupur , Jamshedpur</p>
+          <p><i class="fas fa-phone"></i> +91 62028 72693</p>
+          <p><i class="fas fa-envelope"></i> shivam8404@gmail.com</p>
+        </div>
+      </div>
+  
+      <!-- Social Media Links -->
+      <div class="row mt-4">
+        <div class="col text-center">
+          <h5 class="text-uppercase">Follow Us</h5>
+          <a href="#" class="text-white mx-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white mx-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white mx-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white mx-3"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p>&copy; 2024 <strong>HOTEL</strong> . All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock body %}
